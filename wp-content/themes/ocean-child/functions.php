@@ -27,7 +27,7 @@ add_filter('acf/format_value/type=text', 'do_shortcode');
 
 /*Woocommerce Warenkorb Button im Shop anzeigen*/
 
-add_action( ‘woocommerce_after_shop_loop_item’, ‘woocommerce_template_loop_add_to_cart’, 10 );
+// add_action( ‘woocommerce_after_shop_loop_item’, ‘woocommerce_template_loop_add_to_cart’, 10 );
 
 /* Fehlermeldung beim Formular in Single Products, wenn Form nicht ausgefüllt wurde */
 
