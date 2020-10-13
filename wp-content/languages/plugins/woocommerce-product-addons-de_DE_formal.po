@@ -1,0 +1,939 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Add-Ons 3.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"product-addons\n"
+"POT-Creation-Date: 2018-10-23 18:37:07+00:00\n"
+"PO-Revision-Date: 2018-10-25 09:58+0200\n"
+"Last-Translator: \n"
+"Language-Team: Christoph Rado, christophrado.de\n"
+"Language: de_DE@formal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-wc-product-addons-admin.php:41
+#: includes/admin/class-wc-product-addons-admin.php:335
+#: legacy/admin/class-product-addon-admin.php:186
+#: legacy/admin/views/html-global-admin-add.php:54
+msgid "Add-ons"
+msgstr "Add-Ons"
+
+#: includes/admin/class-wc-product-addons-admin.php:137
+msgid ""
+"All fields must have a title and/or option name. Please review the settings "
+"highlighted in red border."
+msgstr ""
+"Alle Felder müssen einen Titel und/oder einen Optionsnamen haben. Bitte "
+"prüfen Sie die rot markierten Einstellungen."
+
+#: includes/admin/class-wc-product-addons-admin.php:138
+#: includes/admin/views/html-addon.php:205
+msgid "Limit price range"
+msgstr "Preis-Bereich eingrenzen"
+
+#: includes/admin/class-wc-product-addons-admin.php:139
+#: includes/admin/views/html-addon.php:209
+msgid "Limit quantity range"
+msgstr "Menge eingrenzen"
+
+#: includes/admin/class-wc-product-addons-admin.php:140
+#: includes/admin/views/html-addon.php:212
+#: includes/admin/views/html-addon.php:215
+msgid "Limit character length"
+msgstr "Anzahl Zeichen eingrenzen"
+
+#: includes/admin/class-wc-product-addons-admin.php:141
+#: includes/admin/views/html-addon.php:198
+msgid "Restrictions"
+msgstr "Beschränkungen"
+
+#: includes/admin/class-wc-product-addons-admin.php:142
+msgid "Are you sure you want remove this add-on field?"
+msgstr "Sind Sie sicher, dass Sie dieses Add-On-Feld entfernen möchten?"
+
+#: includes/admin/class-wc-product-addons-admin.php:143
+#: legacy/admin/views/html-addon-panel.php:208
+#: legacy/admin/views/html-addon-panel.php:288
+msgid "Are you sure you want delete this option?"
+msgstr "Sind Sie sicher, dass Sie diese Option löschen möchten?"
+
+#: includes/admin/class-wc-product-addons-admin.php:144
+msgid "Add Image Swatch"
+msgstr "Bildauswahl hinzufügen"
+
+#: includes/admin/class-wc-product-addons-admin.php:145
+msgid "Add Image"
+msgstr "Bild hinzufügen"
+
+#: includes/admin/class-wc-product-addons-admin.php:176
+#: legacy/admin/class-product-addon-admin.php:64
+msgid "Add-on saved successfully"
+msgstr "Add-On erfolgreich gespeichert"
+
+#: includes/admin/class-wc-product-addons-admin.php:191
+msgid "Error: Add-on not found"
+msgstr "Fehler: Add-On nicht gefunden"
+
+#: includes/admin/class-wc-product-addons-admin.php:217
+#: includes/admin/class-wc-product-addons-admin.php:289
+msgid "Add-ons Group"
+msgstr "Add-On-Gruppe"
+
+#: includes/admin/class-wc-product-addons-admin.php:229
+#: legacy/admin/class-product-addon-admin.php:119
+msgid "Add-on deleted successfully"
+msgstr "Add-On erfolgreich gelöscht"
+
+#: includes/admin/class-wc-product-addons-admin.php:246
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: includes/admin/class-wc-product-addons-admin.php:249
+#: includes/admin/views/html-addon.php:172 legacy/admin/views/html-addon.php:64
+msgid "Price"
+msgstr "Preis"
+
+#: includes/admin/class-wc-product-addons-admin.php:252
+#: includes/admin/views/html-addon.php:82
+msgid "Quantity"
+msgstr "Menge"
+
+#: includes/admin/class-wc-product-addons-admin.php:255
+#: includes/admin/views/html-addon.php:78
+msgid "Short Text"
+msgstr "Kurzer Text"
+
+#: includes/admin/class-wc-product-addons-admin.php:258
+#: includes/admin/views/html-addon.php:79
+msgid "Long Text"
+msgstr "Langer Text"
+
+#: includes/admin/class-wc-product-addons-admin.php:261
+#: includes/admin/views/html-addon.php:80
+msgid "File Upload"
+msgstr "Datei-Upload"
+
+#: includes/admin/class-wc-product-addons-admin.php:264
+msgid "Dropdown"
+msgstr "Auswahlliste"
+
+#: includes/admin/class-wc-product-addons-admin.php:268
+#: includes/admin/views/html-addon.php:76
+msgid "Multiple Choice"
+msgstr "Mehrfachauswahl"
+
+#: includes/admin/class-wc-product-addons-admin.php:567
+msgid "SKU:"
+msgstr "Art-Nr:"
+
+#. translators: %s ID of variation
+#: includes/admin/class-wc-product-addons-admin.php:576
+msgid "%s (No longer exists)"
+msgstr "%s (Existiert nicht mehr)"
+
+#: includes/admin/class-wc-product-addons-admin.php:579
+msgid "Variation ID:"
+msgstr "Variations-ID:"
+
+#: includes/admin/class-wc-product-addons-privacy.php:12
+msgid "Product Add-ons"
+msgstr "Produkt-Add-Ons"
+
+#: includes/admin/class-wc-product-addons-privacy.php:20
+msgid ""
+"By using this extension, you may be storing personal data or sharing data "
+"with an external service. <a href=\"%s\" target=\"_blank\">Learn more about "
+"how this works, including what you may want to include in your privacy "
+"policy.</a>"
+msgstr ""
+"Mit der Nutzung dieser Erweiterung werden gegebenenfalls persönliche Daten "
+"gespeichert oder mit einem externen Dienst geteilt. <a href=\"%s\" target="
+"\"_blank\">Sehen Sie sich an, was das bedeutet und was Sie gegebenenfalls in "
+"Ihre Datenschutzerklärung aufnehmen sollten.</a>"
+
+#: includes/admin/views/html-addon-option.php:32
+msgid "Enter an option"
+msgstr "Wähle eine Option"
+
+#: includes/admin/views/html-addon-option.php:37
+#: includes/admin/views/html-addon.php:256
+msgid "Flat Fee"
+msgstr "Pauschalgebühr"
+
+#: includes/admin/views/html-addon-option.php:38
+#: includes/admin/views/html-addon.php:257
+msgid "Quantity Based"
+msgstr "Mengen-basiert"
+
+#: includes/admin/views/html-addon-option.php:39
+#: includes/admin/views/html-addon.php:258
+msgid "Percentage Based"
+msgstr "Prozentual"
+
+#: includes/admin/views/html-addon-panel.php:11
+msgid "Add-on fields"
+msgstr "Add-On-Felder"
+
+#: includes/admin/views/html-addon-panel.php:11
+msgid "Add fields to get additional information from customers"
+msgstr ""
+"Fügen Sie Felder hinzu, um zusätzliche Informationen des Kunden zu erhalten"
+
+#: includes/admin/views/html-addon-panel.php:13
+#: legacy/admin/views/html-addon-panel.php:10
+msgid "Expand all"
+msgstr "Alle erweitern"
+
+#: includes/admin/views/html-addon-panel.php:13
+#: legacy/admin/views/html-addon-panel.php:10
+msgid "Close all"
+msgstr "Alle schließen"
+
+#: includes/admin/views/html-addon-panel.php:32
+msgid "Add Field"
+msgstr "Feld hinzufügen"
+
+#: includes/admin/views/html-addon-panel.php:35
+#: legacy/admin/views/html-addon-panel.php:31
+msgid "Import"
+msgstr "Importieren"
+
+#: includes/admin/views/html-addon-panel.php:36
+#: legacy/admin/views/html-addon-panel.php:32
+msgid "Export"
+msgstr "Exportieren"
+
+#: includes/admin/views/html-addon-panel.php:42
+#: legacy/admin/views/html-addon-panel.php:37
+msgid ""
+"Paste exported form data here and then save to import fields. The imported "
+"fields will be appended."
+msgstr ""
+"Füge exportierte Daten hier ein und speichere, um Fehler zu importieren. Die "
+"importierten Felder werden angefügt."
+
+#: includes/admin/views/html-addon-panel.php:46
+msgid "Additional add-ons"
+msgstr "Zusätzliche Add-Ons"
+
+#. translators: %s URL to addons page
+#: includes/admin/views/html-addon-panel.php:50
+msgid ""
+"You can create additional <a href=\"%s\">add-ons</a> that apply to all "
+"products or to certain categories."
+msgstr ""
+"Sie können zusätzliche <a href=\"%s\">Add-Ons</a> erstellen, die für alle "
+"Produkte oder bestimmte Kategorien gelten."
+
+#: includes/admin/views/html-addon-panel.php:55
+msgid "Exclude add-ons"
+msgstr "Add-Ons ausschließen"
+
+#: includes/admin/views/html-addon-panel.php:56
+msgid "Hide additional add-ons that may apply to this product."
+msgstr "Zusätzliche Add-Ons, die für das Produkt gelten könnten, ausblenden."
+
+#: includes/admin/views/html-addon.php:11
+msgid "Multiple choice"
+msgstr "Mehrfachauswahl"
+
+#: includes/admin/views/html-addon.php:59 legacy/admin/views/html-addon.php:10
+msgid "Remove"
+msgstr "Entfernen"
+
+#: includes/admin/views/html-addon.php:60 legacy/admin/views/html-addon.php:11
+msgid "Click to toggle"
+msgstr "Klicken, um zu öffnen"
+
+#: includes/admin/views/html-addon.php:72
+msgid "Type"
+msgstr "Art"
+
+#: includes/admin/views/html-addon.php:77 legacy/admin/views/html-addon.php:16
+msgid "Checkboxes"
+msgstr "Checkboxen"
+
+#: includes/admin/views/html-addon.php:81
+msgid "Name Your Price"
+msgstr "Nenn einen Preis"
+
+#: includes/admin/views/html-addon.php:83
+#: includes/admin/views/html-addon.php:134
+msgid "Heading"
+msgstr "Überschrift"
+
+#: includes/admin/views/html-addon.php:90
+msgid "Display as"
+msgstr "Anzeigen als"
+
+#: includes/admin/views/html-addon.php:94
+msgid "Dropdowns"
+msgstr "Auswahlliste"
+
+#: includes/admin/views/html-addon.php:95
+msgid "Radio Buttons"
+msgstr "Radio-Buttons"
+
+#: includes/admin/views/html-addon.php:96
+msgid "Images"
+msgstr "Bilder"
+
+#: includes/admin/views/html-addon.php:103
+msgid "Restriction"
+msgstr "Einschränkungen"
+
+#: includes/admin/views/html-addon.php:107
+msgid "Any Text"
+msgstr "Beliebiger Text"
+
+#: includes/admin/views/html-addon.php:108
+msgid "Only Letters"
+msgstr "Nur Buchstaben"
+
+#: includes/admin/views/html-addon.php:109
+msgid "Only Numbers"
+msgstr "Nur Zahlen"
+
+#: includes/admin/views/html-addon.php:110
+msgid "Only Letters and Numbers"
+msgstr "Nur Buchstaben und Zahlen"
+
+#: includes/admin/views/html-addon.php:111
+msgid "Only Email Address"
+msgstr "Nur E-Mail-Adresse"
+
+#: includes/admin/views/html-addon.php:120
+msgid "Title"
+msgstr "Titel"
+
+#: includes/admin/views/html-addon.php:129
+msgid "Format title"
+msgstr "Titel formatieren"
+
+#: includes/admin/views/html-addon.php:133 legacy/admin/views/html-addon.php:63
+msgid "Label"
+msgstr "Beschriftung"
+
+#: includes/admin/views/html-addon.php:135
+msgid "Hide"
+msgstr "Ausblenden"
+
+#: includes/admin/views/html-addon.php:145
+msgid "Add description"
+msgstr "Beschreibung hinzufügen"
+
+#: includes/admin/views/html-addon.php:156
+#: legacy/templates/addons/addon-start.php:6
+#: templates/addons/addon-start.php:55 templates/addons/addon-start.php:63
+msgid "Required field"
+msgstr "Pflichtfeld"
+
+#: includes/admin/views/html-addon.php:167
+msgid "Option"
+msgstr "Option"
+
+#: includes/admin/views/html-addon.php:173
+#: includes/admin/views/html-addon.php:251
+msgid ""
+"Choose how to calculate price: apply a flat fee regardless of quantity, "
+"charge per quantity ordered, or charge a percentage of the total"
+msgstr ""
+"Wählen Sie, wie der Preis berechnet wird: Pauschal ohne Rücksicht auf die "
+"Menge, multipliziert mit der Artikelmenge oder prozentual vom Gesamtpreis"
+
+#: includes/admin/views/html-addon.php:189
+msgid "Add Option"
+msgstr "Option hinzufügen"
+
+#: includes/admin/views/html-addon.php:238
+msgid "Enter a minimum and maximum value for the limit range."
+msgstr "Geben Sie Minimal- und Maximalwerte ein."
+
+#: includes/admin/views/html-addon.php:250
+msgid "Adjust price"
+msgstr "Preis anpassen"
+
+#: includes/admin/views/html-global-admin-add.php:6
+#: woocommerce-product-addons.php:231
+msgid "Create add-ons"
+msgstr "Add-Ons erstellen"
+
+#: includes/admin/views/html-global-admin-add.php:7
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+#: includes/admin/views/html-global-admin-add.php:10
+msgid "Edit Add-on"
+msgstr "Add-On bearbeiten"
+
+#: includes/admin/views/html-global-admin-add.php:11
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: includes/admin/views/html-global-admin-add.php:19
+msgid ""
+"Set up add-ons that apply to all products or specific product categories."
+msgstr ""
+"Erstellen Sie Add-Ons, die für alle Produkte oder bestimmte Kategorien "
+"gelten."
+
+#: includes/admin/views/html-global-admin-add.php:25
+#: includes/admin/views/html-global-admin.php:14
+#: legacy/admin/views/html-addon.php:37
+msgid "Name"
+msgstr "Name"
+
+#: includes/admin/views/html-global-admin-add.php:29
+msgid ""
+"This name is for your reference only and will not be visible to customers."
+msgstr ""
+"Dieser Name dient nur Ihrer Referenz und wird nicht dem Kunden angezeigt."
+
+#: includes/admin/views/html-global-admin-add.php:34
+#: includes/admin/views/html-global-admin.php:15
+#: legacy/admin/views/html-global-admin-add.php:24
+#: legacy/admin/views/html-global-admin.php:16
+msgid "Priority"
+msgstr "Priorität"
+
+#: includes/admin/views/html-global-admin-add.php:38
+msgid ""
+"This determines the order when there are multiple add-ons. Add-ons for "
+"individual products are set to order 10."
+msgstr ""
+"Dies bestimmt die Reihenfolge, wenn es mehrere Add-Ons gibt. Add-Ons "
+"individueller Produkte haben die Priorität 10."
+
+#: includes/admin/views/html-global-admin-add.php:43
+#: includes/admin/views/html-global-admin.php:16
+msgid "Product Categories"
+msgstr "Produktkategorien"
+
+#: includes/admin/views/html-global-admin-add.php:46
+msgid "Choose categories&hellip;"
+msgstr "Kategorien wählen&hellip;"
+
+#: includes/admin/views/html-global-admin-add.php:47
+#: includes/admin/views/html-global-admin.php:38
+#: legacy/admin/views/html-global-admin-add.php:37
+#: legacy/admin/views/html-global-admin.php:36
+msgid "All Products"
+msgstr "Alle Produkte"
+
+#: includes/admin/views/html-global-admin-add.php:48
+msgid "Product categories"
+msgstr "Produktkategorien"
+
+#: includes/admin/views/html-global-admin-add.php:59
+msgid ""
+"Select which categories this add-on should apply to. Create add-ons for a "
+"single product when editing that product."
+msgstr ""
+"Wählen Sie, für welche Kategorien dieses Add-On gelten soll. Erstellen Sie "
+"Add-Ons pro Produkt während Sie das Produkt bearbeiten."
+
+#: includes/admin/views/html-global-admin.php:9
+msgid "Add-Ons"
+msgstr "Add-Ons"
+
+#: includes/admin/views/html-global-admin.php:9
+msgid "Create New"
+msgstr "Neu erstellen"
+
+#: includes/admin/views/html-global-admin.php:17
+#: legacy/admin/views/html-global-admin.php:15
+msgid "Number of Fields"
+msgstr "Anzahl Felder"
+
+#: includes/admin/views/html-global-admin.php:29
+#: legacy/admin/views/html-global-admin.php:46
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: includes/admin/views/html-global-admin.php:29
+#: legacy/admin/views/html-global-admin.php:46
+msgid "Delete"
+msgstr "Löschen"
+
+#: includes/admin/views/html-global-admin.php:40
+msgid "No Products Assigned"
+msgstr "Keine Produkte zugeordnet"
+
+#: includes/admin/views/html-global-admin.php:56
+msgid "No add-ons found."
+msgstr "Keine Add-Ons gefunden."
+
+#: includes/admin/views/html-global-admin.php:56
+msgid "Create add-ons."
+msgstr "Add-Ons erstellen."
+
+#: includes/admin/views/html-global-admin.php:63
+msgid ""
+"Need help with add-ons? Visit the <a href=\"https://docs.woocommerce.com/"
+"document/product-add-ons\" target=\"_blank\">Documentation</a>."
+msgstr ""
+"Brauchen Sie Hilfe? Besuchen Sie die <a href=\"https://docs.woocommerce.com/"
+"document/product-add-ons\" target=\"_blank\">Dokumentation</a>."
+
+#: includes/class-wc-product-addons-cart.php:86
+#: includes/class-wc-product-addons-cart.php:453
+msgid "Add-on:"
+msgstr "Add-On:"
+
+#: includes/class-wc-product-addons-display.php:91
+msgid "Subtotal"
+msgstr "Zwischensumme"
+
+#: includes/class-wc-product-addons-display.php:92
+#: legacy/includes/class-product-addon-display.php:71
+msgid "characters remaining"
+msgstr "Zeichen verbleiben"
+
+#: includes/class-wc-product-addons-display.php:410
+#: legacy/includes/class-product-addon-display-legacy.php:68
+#: legacy/includes/class-product-addon-display.php:401
+msgid "Select options"
+msgstr "Optionen wählen"
+
+#. translators: %s Name of the addon
+#. translators: %s Addon name
+#: includes/fields/class-wc-product-addons-field-custom.php:17
+#: includes/fields/class-wc-product-addons-field-file-upload.php:29
+#: includes/fields/class-wc-product-addons-field-list.php:15
+#: includes/fields/class-wc-product-addons-field-select.php:14
+#: legacy/fields/class-product-addon-field-custom.php:19
+#: legacy/fields/class-product-addon-field-file-upload.php:29
+#: legacy/fields/class-product-addon-field-list.php:15
+#: legacy/fields/class-product-addon-field-select.php:14
+#: legacy/includes/fields/class-product-addon-field-custom.php:19
+#: legacy/includes/fields/class-product-addon-field-file-upload.php:29
+#: legacy/includes/fields/class-product-addon-field-list.php:15
+#: legacy/includes/fields/class-product-addon-field-select.php:14
+msgid "\"%s\" is a required field."
+msgstr "„%s“ ist ein Pflichtfeld."
+
+#. translators: 1 Addon name 2 Minimum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:27
+msgid "The minimum allowed length for \"%1$s\" is %2$s."
+msgstr "Die minimal erlaubte Länge für „%1$s“ ist %2$s."
+
+#. translators: 1 Addon name 2 Maximum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:32
+msgid "The maximum allowed length for \"%1$s\" is %2$s."
+msgstr "Die maximal erlaubte Länge für „%1$s“ ist %2$s."
+
+#. translators: 1 Addon name 2 minimum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:40
+msgid "The minimum allowed amount for \"%1$s\" is %2$s."
+msgstr "Die minimal erlaubte Menge für „%1$s“ ist %2$s."
+
+#. translators: 1 Addon name 2 Maximum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:47
+msgid "The maximum allowed amount for \"%1$s\" is %2$s."
+msgstr "Die maximal erlaubte Menge für „%1$s“ ist %2$s."
+
+#. translators: %s Addon name
+#: includes/fields/class-wc-product-addons-field-custom.php:61
+msgid "Please enter a value greater than 0 for \"%s\"."
+msgstr "Bitte geben Sie für „%s“ einen Wert größer als 0 ein."
+
+#: includes/fields/class-wc-product-addons-field-file-upload.php:34
+msgid "Filesize exceeds the limit."
+msgstr "Dateigröße überschreitet das Maximum."
+
+#: includes/groups/class-wc-product-addons-groups.php:51
+#: legacy/groups/class-product-addon-groups.php:51
+#: legacy/includes/groups/class-product-addon-groups.php:51
+msgid "Unable to retrieve data. Invalid global add ons group or product ID."
+msgstr ""
+"Daten konnten nicht abgerufen werden. Ungültige globale Add-On-Gruppe oder "
+"Produkt-ID."
+
+#: includes/groups/class-wc-product-addons-groups.php:83
+#: legacy/groups/class-product-addon-groups.php:83
+#: legacy/includes/groups/class-product-addon-groups.php:83
+msgid "Unable to delete group. Invalid global add ons group ID."
+msgstr ""
+"Gruppe konnte nicht gelöscht werden. Ungültige globale Add-On-Gruppen-ID."
+
+#: legacy/admin/class-product-addon-admin.php:33
+#: legacy/admin/views/html-global-admin.php:9
+msgid "Global Add-ons"
+msgstr "Globale Add-Ons"
+
+#: legacy/admin/class-product-addon-admin.php:79
+msgid "Error: Global Add-on not found"
+msgstr "Fehler: Globales Add-On nicht gefunden"
+
+#: legacy/admin/class-product-addon-admin.php:107
+#: legacy/admin/class-product-addon-admin.php:140
+msgid "Global Add-on Group"
+msgstr "Globale Add-On-Gruppe"
+
+#: legacy/admin/views/html-addon-option.php:7
+msgid "Default Label"
+msgstr "Standard-Beschriftung"
+
+#: legacy/admin/views/html-addon-panel.php:28
+msgid "New add-on"
+msgstr "Neues Add-On"
+
+#: legacy/admin/views/html-addon-panel.php:43
+msgid "Global Addon Exclusion"
+msgstr "Globaler Add-On-Ausschluss"
+
+#: legacy/admin/views/html-addon-panel.php:44
+msgid "Check this to exclude this product from all Global Addons"
+msgstr ""
+"Aktiviere dies, um dieses Produkt von allen globalen Add-Ons auszuschließen"
+
+#: legacy/admin/views/html-addon-panel.php:50
+msgid "All addon fields require a name."
+msgstr "Alle Add-On-Felder benötigen einen Namen."
+
+#: legacy/admin/views/html-addon-panel.php:93
+msgid "Min / max price"
+msgstr "Min / Max Preis"
+
+#: legacy/admin/views/html-addon-panel.php:97
+msgid "Min / max multiplier"
+msgstr "Min / Max Multiplizierer"
+
+#: legacy/admin/views/html-addon-panel.php:106
+msgid "Min / max characters"
+msgstr "Min / Max Zeichen"
+
+#: legacy/admin/views/html-addon-panel.php:110
+msgid "Min / max"
+msgstr "Min / Max"
+
+#: legacy/admin/views/html-addon-panel.php:185
+msgid "Are you sure you want remove this add-on?"
+msgstr "Sind Sie sicher, dass Sie dieses Add-On entfernen möchten?"
+
+#: legacy/admin/views/html-addon.php:12
+msgid "Group"
+msgstr "Gruppe"
+
+#: legacy/admin/views/html-addon.php:14
+msgid "Additional custom price input"
+msgstr "Zusätzliche eigene Preis-Eingabe"
+
+#: legacy/admin/views/html-addon.php:15
+msgid "Additional price multiplier"
+msgstr "Zusätzlicher Preis-Multiplikator"
+
+#: legacy/admin/views/html-addon.php:17
+msgid "Custom input (textarea)"
+msgstr "Eigener Text (mehrzeilig)"
+
+#: legacy/admin/views/html-addon.php:18
+msgid "Custom input (text)"
+msgstr "Eigene Eingabe (Text)"
+
+#: legacy/admin/views/html-addon.php:19
+msgid "Any text"
+msgstr "Beliebiger Text"
+
+#: legacy/admin/views/html-addon.php:20
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+#: legacy/admin/views/html-addon.php:21 templates/addons/custom-text.php:28
+msgid "Only letters"
+msgstr "Nur Buchstaben"
+
+#: legacy/admin/views/html-addon.php:22 templates/addons/custom-text.php:36
+msgid "Only letters and numbers"
+msgstr "Nur Buchstaben und Zahlen"
+
+#: legacy/admin/views/html-addon.php:23 templates/addons/custom-text.php:32
+msgid "Only numbers"
+msgstr "Nur Zahlen"
+
+#: legacy/admin/views/html-addon.php:25
+msgid "File upload"
+msgstr "Datei-Upload"
+
+#: legacy/admin/views/html-addon.php:26
+msgid "Radio buttons"
+msgstr "Radio-Buttons"
+
+#: legacy/admin/views/html-addon.php:27
+msgid "Select box"
+msgstr "Auswahlliste"
+
+#: legacy/admin/views/html-addon.php:43
+msgid "Required fields?"
+msgstr "Pflichtfelder?"
+
+#: legacy/admin/views/html-addon.php:51
+msgid "Description"
+msgstr "Beschreibung"
+
+#: legacy/admin/views/html-addon.php:65
+msgid "Min / Max"
+msgstr "Min / Max"
+
+#: legacy/admin/views/html-addon.php:72
+msgid "New&nbsp;Option"
+msgstr "Neue&nbsp;Option"
+
+#: legacy/admin/views/html-global-admin-add.php:9
+msgid "Add/Edit Global Add-on"
+msgstr "Globales Add-On hinzufügen/bearbeiten"
+
+#: legacy/admin/views/html-global-admin-add.php:15
+msgid "Global Add-on Reference"
+msgstr "Globale Add-On-Referenz"
+
+#: legacy/admin/views/html-global-admin-add.php:19
+msgid "Give this global add-on a reference/name to make it recognisable."
+msgstr ""
+"Geben Sie diesem globalen Add-On eine Referenz/Namen, um es erkennbar zu "
+"machen."
+
+#: legacy/admin/views/html-global-admin-add.php:28
+msgid ""
+"Give this global addon a priority - this will determine the order in which "
+"multiple groups of addons get displayed on the frontend. Per-product add-ons "
+"will always have priority 10."
+msgstr ""
+"Geben Sie diesem globalen Add-On eine Priorität - dies wird bestimmen, in "
+"welcher Reihenfolge mehrere Gruppen von Add-Ons auf der Seite angezeigt "
+"werden. Individuelle Produkt-Add-Ons haben immer die Priorität 10."
+
+#: legacy/admin/views/html-global-admin-add.php:33
+msgid "Applied to..."
+msgstr "Angewendet auf..."
+
+#: legacy/admin/views/html-global-admin-add.php:36
+msgid "Choose some options&hellip;"
+msgstr "Wählen Sie mehrere Optionen&hellip;"
+
+#: legacy/admin/views/html-global-admin-add.php:38
+msgid "Product category notifications"
+msgstr "Produkt-Kategorie-Benachrichtigungen"
+
+#: legacy/admin/views/html-global-admin-add.php:43
+msgid "Category:"
+msgstr "Kategorie:"
+
+#: legacy/admin/views/html-global-admin-add.php:49
+msgid ""
+"Choose categories which should show these addons (or apply to all products)."
+msgstr ""
+"Wählen Sie Kategorien, auf die diese Add-Ons angewendet werden sollen (oder "
+"wenden Sie es auf alle Produkte an)."
+
+#: legacy/admin/views/html-global-admin-add.php:66
+msgid "Save Global Add-on"
+msgstr "Globales Add-On speichern"
+
+#: legacy/admin/views/html-global-admin.php:9
+msgid "Add Global Add-on"
+msgstr "Globales Add-On hinzufügen"
+
+#: legacy/admin/views/html-global-admin.php:14
+msgid "Reference"
+msgstr "Referenz"
+
+#: legacy/admin/views/html-global-admin.php:17
+msgid "Applies to..."
+msgstr "Angewendet auf…"
+
+#: legacy/admin/views/html-global-admin.php:18
+msgid "Actions"
+msgstr "Aktionen"
+
+#: legacy/admin/views/html-global-admin.php:54
+msgid "No global add-ons exists yet."
+msgstr "Es existiert noch kein globales Add-On."
+
+#: legacy/admin/views/html-global-admin.php:54
+msgid "Add one?"
+msgstr "Eines hinzufügen?"
+
+#: legacy/fields/class-product-addon-field-custom.php:31
+#: legacy/includes/fields/class-product-addon-field-custom.php:31
+msgid "The minimum allowed length for \"%s - %s\" is %s."
+msgstr "Die minimal erlaubte Länge für „%s - %s“ ist %s."
+
+#: legacy/fields/class-product-addon-field-custom.php:35
+#: legacy/includes/fields/class-product-addon-field-custom.php:35
+msgid "The maximum allowed length for \"%s - %s\" is %s."
+msgstr "Die maximal erlaubte Länge für „%s - %s“ ist %s."
+
+#: legacy/fields/class-product-addon-field-custom.php:42
+#: legacy/includes/fields/class-product-addon-field-custom.php:42
+msgid "The minimum allowed amount for \"%s - %s\" is %s."
+msgstr "Die minimal erlaubte Menge für „%s - %s“ ist %s."
+
+#: legacy/fields/class-product-addon-field-custom.php:48
+#: legacy/includes/fields/class-product-addon-field-custom.php:48
+msgid "The maximum allowed amount for \"%s - %s\" is %s."
+msgstr "Die maximal erlaubte Menge für „%s - %s“ ist %s."
+
+#: legacy/fields/class-product-addon-field-custom.php:60
+#: legacy/includes/fields/class-product-addon-field-custom.php:60
+msgid "Please enter a value greater than 0 for \"%s - %s\"."
+msgstr "Bitte Geben Sie für „%s - %s“ einen Wert größer als 0 ein."
+
+#: legacy/fields/class-product-addon-field-custom.php:65
+#: legacy/includes/fields/class-product-addon-field-custom.php:65
+msgid "Only letters are allowed for \"%s - %s\"."
+msgstr "Nur Buchstaben sind erlaubt für „%s - %s“."
+
+#: legacy/fields/class-product-addon-field-custom.php:70
+#: legacy/includes/fields/class-product-addon-field-custom.php:70
+msgid "Only digits are allowed for \"%s - %s\"."
+msgstr "Nur Zahlen sind erlaubt für „%s - %s“."
+
+#: legacy/fields/class-product-addon-field-custom.php:75
+#: legacy/includes/fields/class-product-addon-field-custom.php:75
+msgid "Only letters and digits are allowed for \"%s - %s\"."
+msgstr "Nur Buchstaben und Zahlen sind erlaubt für „%s - %s“."
+
+#: legacy/fields/class-product-addon-field-custom.php:80
+#: legacy/includes/fields/class-product-addon-field-custom.php:80
+msgid "A valid email address is required for \"%s - %s\"."
+msgstr "Eine gültige E-Mail-Adresse wird benötigt für „%s - %s“."
+
+#: legacy/includes/class-product-addon-display.php:69
+msgid "Options total:"
+msgstr "Summe Optionen:"
+
+#: legacy/includes/class-product-addon-display.php:70
+msgid "Sub total:"
+msgstr "Zwischensumme:"
+
+#: legacy/includes/class-product-addon-display.php:307
+msgid "Please enter letters only"
+msgstr "Bitte nur Buchstaben eingeben"
+
+#: legacy/includes/class-product-addon-display.php:320
+msgid "Please enter digits only"
+msgstr "Bitte nur Zahlen eingeben"
+
+#: legacy/includes/class-product-addon-display.php:333
+msgid "Please enter letters or digits only"
+msgstr "Bitte nur Buchstaben oder Zahlen eingeben"
+
+#: legacy/includes/class-product-addon-display.php:345
+msgid "Please enter an email address"
+msgstr "Bitte eine E-Mail-Adresse eingeben"
+
+#: legacy/templates/addons/file_upload.php:13
+#: legacy/templates/addons/file_upload.php:19
+#: templates/addons/file-upload.php:26
+msgid "(max file size %s)"
+msgstr "(maximale Dateigröße %s)"
+
+#: legacy/templates/addons/input_multiplier.php:18
+msgid "This must be a number!"
+msgstr "Dies muss eine Zahl sein!"
+
+#: legacy/templates/addons/select.php:10 templates/addons/radiobutton.php:18
+#: templates/addons/select.php:17
+msgid "None"
+msgstr "Keins"
+
+#: legacy/templates/addons/select.php:12 templates/addons/select.php:19
+msgid "Select an option..."
+msgstr "Wählen Sie eine Option…"
+
+#. translators: %s WC download URL link.
+#: woocommerce-product-addons.php:47
+msgid ""
+"Product Add-ons requires WooCommerce to be installed and active. You can "
+"download %s here."
+msgstr ""
+"Produkt Add-Ons benötigt installiertes und aktiviertes WooCommerce. Sie "
+"können %s hier herunterladen."
+
+#: woocommerce-product-addons.php:217
+msgid "Support"
+msgstr "Support"
+
+#: woocommerce-product-addons.php:218
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: woocommerce-product-addons.php:231
+msgid "WooCommerce Product Add-ons is ready to go!"
+msgstr "WooCommerce Produkt Add-Ons ist bereit!"
+
+#: woocommerce-product-addons.php:231
+msgid ""
+"Create an add-on that applies to every product, or apply it to specific "
+"categories. Create an add-on for an individual product by editing the "
+"product."
+msgstr ""
+"Erstellen Sie ein Add-On, dass für alle Produkte oder bestimmte Kategorien "
+"gilt. Erstellen Sie ein Add-On für ein individuelles Produkt während Sie das "
+"Produkt bearbeiten."
+
+#: woocommerce-product-addons.php:231
+msgid "Find products"
+msgstr "Produkte finden"
+
+#: woocommerce-product-addons.php:239
+msgid ""
+"New features of the Product Add-ons 3.0 versions are not available for "
+"WooCommerce less than 3.0. To use this new features, please update your "
+"WooCommerce version to the latest version."
+msgstr ""
+"Neue Funktionen in Produkt Add-Ons 3.0 sind nicht verfügbar für WooCommerce "
+"früher als 3.0. Um die neuen Funktionen nutzen zu können, aktualisieren Sie "
+"WooCommerce auf die neueste Version."
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Product Add-ons"
+msgstr "WooCommerce Produkt Add-Ons"
+
+#. Plugin URI of the plugin/theme
+msgid "https://woocommerce.com/products/product-add-ons/"
+msgstr "https://woocommerce.com/products/product-add-ons/"
+
+#. Description of the plugin/theme
+msgid ""
+"Add extra options to products which your customers can select from, when "
+"adding to the cart, with an optional fee for each extra option. Add-ons can "
+"be checkboxes, a select box, or custom text input."
+msgstr ""
+"Fügen Sie Extra-Optionen zu Produkten hinzu, die Ihre Kunden wählen können, "
+"mit optionalen Gebühren pro Option. Add-Ons können Checkboxen, Auswahllisten "
+"oder Texteingabefelder sein."
+
+#. Author of the plugin/theme
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#. Author URI of the plugin/theme
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#~ msgid "Custom Input Multipler"
+#~ msgstr "Eigener Eingabe multipliziert"
+
+#~ msgid "Group Name"
+#~ msgstr "Gruppen-Name"
+
+#~ msgid "Option Price"
+#~ msgstr "Options-Preis"
+
+#~ msgid "Min"
+#~ msgstr "Min"
+
+#~ msgid "Max"
+#~ msgstr "Max"

@@ -1,0 +1,6 @@
+Mar 04 2019 07:35:18
+{"type":8192,"message":"Methods with the same name as their class will not be constructors in a future version of PHP; ThemeMove_Export has a deprecated constructor","file":"\/homepages\/22\/d100674304\/htdocs\/clickandbuilds\/Solarpanel\/wp-content\/plugins\/thememove-core\/export\/export.php","line":12}
+
+Oct 13 2020 07:04:03
+{"type":2,"message":"Use of undefined constant \u2018woocommerce_template_loop_add_to_cart\u2019 - assumed '\u2018woocommerce_template_loop_add_to_cart\u2019' (this will throw an Error in a future version of PHP)","file":"C:\\xampp\\htdocs\\Gaming\\wp-content\\themes\\ocean-child\\functions.php","line":30}
+

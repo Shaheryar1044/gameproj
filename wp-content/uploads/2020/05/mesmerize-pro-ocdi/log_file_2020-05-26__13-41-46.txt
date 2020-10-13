@@ -1,0 +1,36 @@
+
+---Downloaded files---
+The import files for: Gaming were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://cluemasters.de
+Data file = /var/www/vhosts/cluemasters.de/httpdocs/wp-content/uploads/2020/05/mesmerize-pro-ocdi/demo-content-import-file_2020-05-26__13-41-46.xml
+Widget file = /var/www/vhosts/cluemasters.de/httpdocs/wp-content/uploads/2020/05/mesmerize-pro-ocdi/demo-widgets-import-file_2020-05-26__13-41-46.json
+Customizer file = /var/www/vhosts/cluemasters.de/httpdocs/wp-content/uploads/2020/05/mesmerize-pro-ocdi/demo-customizer-import-file_2020-05-26__13-41-46.dat
+Redux files:
+not defined!
+
+---pt-ocdi/before_content_import---
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar widget area : 
+
+Suche - No Title - Widget already exists
+Neueste Beiträge - No Title - Widget already exists
+Neueste Kommentare - No Title - Widget already exists
+Archive - No Title - Widget already exists
+Kategorien - No Title - Widget already exists
+Meta - No Title - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

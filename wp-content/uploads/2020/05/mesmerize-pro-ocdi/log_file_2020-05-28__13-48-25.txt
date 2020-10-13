@@ -1,0 +1,32 @@
+
+---Downloaded files---
+The import files for: Designer Portfolio were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://cluemasters.de
+Data file = /var/www/vhosts/cluemasters.de/httpdocs/wp-content/uploads/2020/05/mesmerize-pro-ocdi/demo-content-import-file_2020-05-28__13-48-25.xml
+Widget file = /var/www/vhosts/cluemasters.de/httpdocs/wp-content/uploads/2020/05/mesmerize-pro-ocdi/demo-widgets-import-file_2020-05-28__13-48-25.json
+Customizer file = /var/www/vhosts/cluemasters.de/httpdocs/wp-content/uploads/2020/05/mesmerize-pro-ocdi/demo-customizer-import-file_2020-05-28__13-48-25.dat
+Redux files:
+not defined!
+
+---pt-ocdi/before_content_import---
+
+
+---Importing widgets---
+Pages Sidebar : 
+
+Suche - No Title - Imported
+Neueste Beiträge - No Title - Imported
+Neueste Kommentare - No Title - Imported
+Archive - No Title - Imported
+Kategorien - No Title - Imported
+Meta - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

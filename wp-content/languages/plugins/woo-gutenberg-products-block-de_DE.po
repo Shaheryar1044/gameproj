@@ -1,0 +1,113 @@
+# Translation of Plugins - WooCommerce Blocks - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - WooCommerce Blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-07 14:14:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - WooCommerce Blocks - Stable (latest release)\n"
+
+#: src/StoreApi/Routes/Products.php:346
+msgid "Operator to compare product attribute terms."
+msgstr "Operator um Produkteigenschaftsbegriffe zu vergleichen."
+
+#: src/StoreApi/Routes/Products.php:265
+msgid "Operator to compare product category terms."
+msgstr "Operator um Produktkategoriebegriffe zu vergleichen."
+
+#. Translators: %1$s is the install command, %2$s is the build command, %3$s is
+#. the watch command.
+#: src/Domain/Bootstrap.php:116
+msgid "WooCommerce Blocks development mode requires files to be built. From the plugin directory, run %1$s to install dependencies, %2$s to build the files or %3$s to build the files and watch for changes."
+msgstr "WooCommerce Block-Entwicklermodus erfordert die Erzeugung von Dateien. Führe vom Plugin-Verzeichnis %1$s aus, um Abhängigkeiten zu installieren, %2$s um Dateien zu erzeugen oder %3$s um die Dateien zu erzeugen und Änderungen zu beobachten."
+
+#. Description of the plugin
+msgid "WooCommerce blocks for the Gutenberg editor."
+msgstr "WooCommerce Blöcke für den Gutenberg Editor."
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Blocks"
+msgstr "WooCommerce Blöcke"
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:25
+msgid "Image ID."
+msgstr "Bild-ID."
+
+#: src/StoreApi/Schemas/ProductSchema.php:70
+#: src/StoreApi/Schemas/CartItemSchema.php:114
+msgid "Product URL."
+msgstr "Produkt-URL."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:52
+msgid "Image name."
+msgstr "Bild-Name."
+
+#: src/StoreApi/Schemas/ProductSchema.php:106
+#: src/StoreApi/Schemas/CartItemSchema.php:162
+#: src/StoreApi/Schemas/CartItemSchema.php:212
+msgid "Current product price."
+msgstr "Aktueller Produkt-Preis."
+
+#: src/StoreApi/Schemas/ProductSchema.php:48
+#: src/StoreApi/Schemas/CartItemSchema.php:66
+msgid "Product name."
+msgstr "Produkt-Name."
+
+#: src/StoreApi/Schemas/ProductSchema.php:93
+msgid "Unique identifier."
+msgstr "Eindeutige Kennung."
+
+#: src/StoreApi/Routes/ProductCategoriesById.php:28
+#: src/StoreApi/Routes/ProductAttributesById.php:28
+#: src/StoreApi/Routes/ProductsById.php:28
+#: src/StoreApi/Schemas/ProductSchema.php:42
+#: src/StoreApi/Schemas/TermSchema.php:26
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:26
+#: src/StoreApi/Schemas/ProductReviewSchema.php:41
+msgid "Unique identifier for the resource."
+msgstr "Einmaliger Identifikator für die Ressource"
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:32
+msgid "Attribute name."
+msgstr "Attribut-Name."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:57
+msgid "Image alternative text."
+msgstr "Bild-Alternativ-Text."
+
+#: src/StoreApi/Schemas/ProductSchema.php:165
+#: src/StoreApi/Schemas/CartItemSchema.php:121
+msgid "List of images."
+msgstr "Bilder-Liste."
+
+#: src/StoreApi/Schemas/ProductSchema.php:153
+msgid "Reviews average rating."
+msgstr "Durschnittliche Bewertung."
+
+#: src/StoreApi/Schemas/ProductSchema.php:159
+msgid "Amount of reviews that the product has."
+msgstr "Anzahl Bewertungen des Produkts."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:60
+msgid "The date the review was created, as GMT."
+msgstr "Das Datum, an dem die Bewertung erstellt wurde, als GMT."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:47
+msgid "The date the review was created, in the site's timezone."
+msgstr "Das Datum, an dem die Bewertung erstellt wurde, in der Zeitzone der Website."
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
+msgstr "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
