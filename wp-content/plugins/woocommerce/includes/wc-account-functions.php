@@ -450,6 +450,7 @@ function althemist_premium_support_query_vars( $vars ) {
     $vars[] = 'premium-support';
     return $vars;
 }
+
   
 add_filter( 'query_vars', 'althemist_premium_support_query_vars', 0 );
   
@@ -477,4 +478,4 @@ echo ' your custom content goes here ';
 }
   
 add_action( 'woocommerce_account_premium-support_endpoint', 'althemist_premium_support_content' );
-// Note: add_action must follow 'woocommerce_account_{your-endpoint-slug}_endpoint' format
+// Note: add_action must follow 'woocommerce_account_{your-endpoint-slug}_endpoint' forma
