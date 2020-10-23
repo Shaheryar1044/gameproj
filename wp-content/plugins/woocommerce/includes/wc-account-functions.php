@@ -420,7 +420,3 @@ function wc_get_account_saved_payment_methods_list_item_echeck( $item, $payment_
 }
 
 add_filter( 'woocommerce_payment_methods_list_item', 'wc_get_account_saved_payment_methods_list_item_echeck', 10, 2 );
-
-
-
-

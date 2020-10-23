@@ -17,7 +17,7 @@ function get_data(){
     get_currentuserinfo();
     $email =  $current_user->user_email;
     $email = 'bilal2@info.com';
-    $sql = "SELECT * FROM wp_woocommerce_order_itemmeta as meta JOIN wp_woocommerce_order_items as items ON meta.order_item_id = items.order_item_id  JOIN wp_wc_order_product_lookup as p ON items.order_id = p.order_id JOIN wp_posts as post ON p.product_id = post.ID JOIN wp_wc_customer_lookup ON wp_wc_customer_lookup.customer_id = p.customer_id WHERE meta_value = '$email'";
+    $sql = "SELECT * FROM wp_woocommerce_order_itemmeta as meta JOIN wp_woocommerce_order_items as items ON meta.order_item_id = items.order_item_id  JOIN wp_wc_order_product_lookup as p ON items.order_id = p.order_id JOIN wp_posts as post ON p.product_id = post.ID WHERE meta_value = '$email'";
     $result = $conn->query($sql);
     //print_r($result);
     
@@ -25,13 +25,11 @@ function get_data(){
         $html = "<table>";
 
         while($row = $result->fetch_assoc()) {
-           
-            $id = $row['order_item_id'];
-            $sql = "SELECT *   FROM wp_woocommerce_order_itemmeta WHERE meta_key = 'Wie viele Spieler inkl. Gastgeber werden erwartet?' AND order_item_id ='$id' ";
-            $res = $conn->query($sql);
-            $nrow = $res->fetch_assoc();
-            $html .= "<tr><td><h1>".$row['post_name']."</h1><p>Host ".$row['username']."</p><p>Paticipants ".$nrow['meta_value']."</p>
-            </td></td></tr>";
+            $sql = "SELECT meta_value FROM wp_woocommerce_order_itemmeta WHERE meta_value = '$email'";
+            $result = $conn->query($sql);
+            echo "<pre>";
+            print_r($row);
+            $html .= "<tr><td><h1>".$row['post_name']."</h1></td></td></tr>";
         }
         $html .="</table>";
         echo $html;

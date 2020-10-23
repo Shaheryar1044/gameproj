@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2020-10-23T05:18:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\gaming\wp-content\themes\oceanwp\partials\header\nav.php in Zeile 9
 
 2020-10-23T05:19:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\gaming\wp-content\plugins\nextend-smart-slider3-pro\Nextend\SmartSlider3\Application\Model\ModelLicense.php in Zeile 18
@@ -55,4 +56,9 @@ Stack trace:
 #6 D:\xampp\htdocs\gaming\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
 #7 D:\xampp\htdocs\gaming\wp-content\plugins\woocommerce\templates\myaccount\my-account.php(34): do_action('woocommerce_acc...')
 #8 D:\ in D:\xampp\htdocs\gaming\wp-content\themes\ocean-child\functions.php in Zeile 31
+=======
+2020-10-23T05:14:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gaming\wp-includes\Requests\Transport\cURL.php in Zeile 441
+>>>>>>> e2b40b489713b488c5775dfbb0c97e4220f9f410
+
+2020-10-23T06:36:52+00:00 CRITICAL syntax error, unexpected 'get_the_post_thumbnail' (T_STRING) in D:\xampp\htdocs\gaming\wp-content\themes\ocean-child\functions.php in Zeile 28
 
