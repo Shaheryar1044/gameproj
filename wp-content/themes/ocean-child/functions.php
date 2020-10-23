@@ -19,7 +19,7 @@ function get_data(){
     //$email = 'bilal2@info.com';
     $sql = "SELECT * FROM wp_woocommerce_order_itemmeta as meta JOIN wp_woocommerce_order_items as items ON meta.order_item_id = items.order_item_id  JOIN wp_wc_order_product_lookup as p ON items.order_id = p.order_id JOIN wp_posts as post ON p.product_id = post.ID WHERE meta_value = '$email'";
     $result = $conn->query($sql);
-    //print_r($result);
+    print_r($result);
     
     if ($result->num_rows > 0) {
         echo "<pre>";
