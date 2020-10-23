@@ -1,0 +1,58 @@
+2020-10-23T05:18:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\gaming\wp-content\themes\oceanwp\partials\header\nav.php in Zeile 9
+
+2020-10-23T05:19:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\gaming\wp-content\plugins\nextend-smart-slider3-pro\Nextend\SmartSlider3\Application\Model\ModelLicense.php in Zeile 18
+
+2020-10-23T05:22:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\gaming\wp-includes\Requests\Transport\cURL.php in Zeile 441
+
+2020-10-23T06:00:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\gaming\wp-includes\block-patterns\text-two-columns.php in Zeile 9
+
+2020-10-23T06:00:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\gaming\wp-includes\Requests\Transport\cURL.php in Zeile 163
+
+2020-10-23T06:02:31+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_fetch_array() in D:\xampp\htdocs\gaming\wp-content\themes\ocean-child\functions.php:31
+Stack trace:
+#0 D:\xampp\htdocs\gaming\wp-includes\shortcodes.php(343): get_data('', '', 'greeting')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\gaming\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(greeti...', 'do_shortcode_ta...', '<p>[greeting]</...')
+#3 D:\xampp\htdocs\gaming\wp-content\plugins\yith-woocommerce-customize-myaccount-page\includes\class.yith-wcmap-frontend.php(312): do_shortcode('<p>[greeting]</...')
+#4 D:\xampp\htdocs\gaming\wp-includes\class-wp-hook.php(287): YITH_WCMAP_Frontend->manage_account_content('')
+#5 D:\xampp\htdocs\gaming\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 D:\xampp\htdocs\gaming\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 D:\xampp\htdocs\gaming\wp-content\plugins\woocommerce\templates\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#8 D:\x in D:\xampp\htdocs\gaming\wp-content\themes\ocean-child\functions.php in Zeile 31
+
+2020-10-23T06:03:20+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_fetch_array() in D:\xampp\htdocs\gaming\wp-content\themes\ocean-child\functions.php:31
+Stack trace:
+#0 D:\xampp\htdocs\gaming\wp-includes\shortcodes.php(343): get_data('', '', 'greeting')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\gaming\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(greeti...', 'do_shortcode_ta...', '<p>[greeting]</...')
+#3 D:\xampp\htdocs\gaming\wp-content\plugins\yith-woocommerce-customize-myaccount-page\includes\class.yith-wcmap-frontend.php(312): do_shortcode('<p>[greeting]</...')
+#4 D:\xampp\htdocs\gaming\wp-includes\class-wp-hook.php(287): YITH_WCMAP_Frontend->manage_account_content('')
+#5 D:\xampp\htdocs\gaming\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 D:\xampp\htdocs\gaming\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 D:\xampp\htdocs\gaming\wp-content\plugins\woocommerce\templates\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#8 D:\x in D:\xampp\htdocs\gaming\wp-content\themes\ocean-child\functions.php in Zeile 31
+
+2020-10-23T06:04:07+00:00 CRITICAL Uncaught Error: Call to a member function fetch_assoc() on bool in D:\xampp\htdocs\gaming\wp-content\themes\ocean-child\functions.php:31
+Stack trace:
+#0 D:\xampp\htdocs\gaming\wp-includes\shortcodes.php(343): get_data('', '', 'greeting')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\gaming\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(greeti...', 'do_shortcode_ta...', '<p>[greeting]</...')
+#3 D:\xampp\htdocs\gaming\wp-content\plugins\yith-woocommerce-customize-myaccount-page\includes\class.yith-wcmap-frontend.php(312): do_shortcode('<p>[greeting]</...')
+#4 D:\xampp\htdocs\gaming\wp-includes\class-wp-hook.php(287): YITH_WCMAP_Frontend->manage_account_content('')
+#5 D:\xampp\htdocs\gaming\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 D:\xampp\htdocs\gaming\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 D:\xampp\htdocs\gaming\wp-content\plugins\woocommerce\templates\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#8 D:\ in D:\xampp\htdocs\gaming\wp-content\themes\ocean-child\functions.php in Zeile 31
+
+2020-10-23T06:04:51+00:00 CRITICAL Uncaught Error: Call to a member function fetch_assoc() on bool in D:\xampp\htdocs\gaming\wp-content\themes\ocean-child\functions.php:31
+Stack trace:
+#0 D:\xampp\htdocs\gaming\wp-includes\shortcodes.php(343): get_data('', '', 'greeting')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\gaming\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(greeti...', 'do_shortcode_ta...', '<p>[greeting]</...')
+#3 D:\xampp\htdocs\gaming\wp-content\plugins\yith-woocommerce-customize-myaccount-page\includes\class.yith-wcmap-frontend.php(312): do_shortcode('<p>[greeting]</...')
+#4 D:\xampp\htdocs\gaming\wp-includes\class-wp-hook.php(287): YITH_WCMAP_Frontend->manage_account_content('')
+#5 D:\xampp\htdocs\gaming\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 D:\xampp\htdocs\gaming\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 D:\xampp\htdocs\gaming\wp-content\plugins\woocommerce\templates\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#8 D:\ in D:\xampp\htdocs\gaming\wp-content\themes\ocean-child\functions.php in Zeile 31
+
