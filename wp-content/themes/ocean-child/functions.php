@@ -16,7 +16,7 @@ function get_data(){
      global $current_user;
     get_currentuserinfo();
     $email =  $current_user->user_email;
-    //$email = 'bilal2@info.com';
+    $email = 'bilal2@info.com';
     $sql = "SELECT * FROM wp_woocommerce_order_itemmeta as meta JOIN wp_woocommerce_order_items as items ON meta.order_item_id = items.order_item_id  JOIN wp_wc_order_product_lookup as p ON items.order_id = p.order_id JOIN wp_posts as post ON p.product_id = post.ID JOIN wp_wc_customer_lookup ON wp_wc_customer_lookup.customer_id = p.customer_id WHERE meta_value = '$email'";
     $result = $conn->query($sql);
 
@@ -40,6 +40,15 @@ function get_data(){
     }
 }
 add_shortcode('greeting', 'get_data');
+
+function getGames(){
+    echo "Rana Sheri";
+    global $wpdb;
+    $results = $wpdb->get_results( "SELECT * FROM $wpdb->posts WHERE `post_type`='product'" );
+    print_r($results);
+}
+
+add_shortcode('getgames', 'getGames');
 
 function oceanwp_child_enqueue_parent_style() {
     // Dynamically get version number of the parent stylesheet (lets browsers re-cache your stylesheet when you update your theme)
