@@ -44,10 +44,28 @@ add_shortcode('greeting', 'get_data');
 function getGames(){
    global $wpdb;
     $games = $wpdb->get_results( "SELECT ID, post_name FROM $wpdb->posts WHERE `post_type`='product'" );
-    foreach ($games as  $game) {
-       echo $game->post_name;
-       echo "<br>";
-    }
+    $html = "<form action='' method='post'>
+        <div class='form-gorup'>
+           
+            <select name='game_id' required  class = 'form-control'>
+            <option value =''>Select a Game</option>";
+            foreach ($games as  $game) {
+                $html .= "<option value ='".$game->ID."'>".$game->post_name."</option>";  
+               
+            }
+       $html .= " </select></div>
+       <br>
+       <input type='text' class='form-control' name='chracter_name' required placeholder='enter chracter name'>
+       <br>
+         <div class='form-gorup'>
+          <br> <br>
+         <input type='submit' value = 'save' class='btn btn-primary'>
+         </div>
+       </form>
+    ";
+
+    echo $html;
+
 }
 
 add_shortcode('getgames', 'getGames');
