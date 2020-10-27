@@ -42,10 +42,12 @@ function get_data(){
 add_shortcode('greeting', 'get_data');
 
 function getGames(){
-    echo "Rana Sheri";
-    global $wpdb;
-    $results = $wpdb->get_results( "SELECT * FROM $wpdb->posts WHERE `post_type`='product'" );
-    print_r($results);
+   global $wpdb;
+    $games = $wpdb->get_results( "SELECT ID, post_name FROM $wpdb->posts WHERE `post_type`='product'" );
+    foreach ($games as  $game) {
+       echo $game->post_name;
+       echo "<br>";
+    }
 }
 
 add_shortcode('getgames', 'getGames');
@@ -90,3 +92,11 @@ add_filter( 'gform_validation_message_6', function ( $message, $form ) {
     return $message;
 }, 10, 2 );
 
+?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>s
+<script type="text/javascript">
+    $( document ).ready(function() {
+        $(".yith-add-characters").hide();
+    });
+   
+</script>
